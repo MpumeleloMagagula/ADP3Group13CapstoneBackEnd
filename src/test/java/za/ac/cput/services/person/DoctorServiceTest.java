@@ -39,14 +39,7 @@ class DoctorServiceTest {
         System.out.println("Read: " + read);
     }
 
-    @Test
-    @Deprecated
-    void update() {
-        Doctor old = service.read("74555a60-6873-4ef7-b613-a3b044331e6f");
-//        Doctor updated = Doctor.Builder.copy(old).setFirstName("Mandla").setLastName("Ndlala").setEmailAddress("drndlala@gmail.com").setContactNumber("08602365689").Build();
-//        assertNotNull(service.update(updated));
-//        System.out.println("Update: " + updated);
-    }
+
 
     @Test
     void delete() {
